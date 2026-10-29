@@ -1,11 +1,146 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bench-Board</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <title>BenchBoard | Recruitment Workspace</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #FAFBFD;
+      color: #243247;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      padding: 22px 8%;
+      background: white;
+      border-bottom: 1px solid #E2E7F0;
+    }
+    .brand {
+      color: #365FDB;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    main {
+      max-width: 1050px;
+      margin: auto;
+      padding: 65px 24px;
+    }
+    h1 {
+      font-size: clamp(30px, 4vw, 46px);
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+    h2 { color: #243247; }
+    p { color: #526174; }
+    .tag {
+      color: #365FDB;
+      font-weight: 600;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+      margin-top: 30px;
+    }
+    .card {
+      padding: 24px;
+      background: white;
+      border: 1px solid #E2E7F0;
+      border-radius: 14px;
+    }
+    .card h3 { margin-top: 0; }
+    .info {
+      margin-top: 35px;
+      padding: 24px;
+      background: #EAF1FF;
+      border-radius: 14px;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      border-top: 1px solid #E2E7F0;
+      color: #64748B;
+    }
+    @media (max-width: 700px) {
+      .grid { grid-template-columns: 1fr; }
+      main { padding: 35px 18px; }
+    }
+  </style>
 </head>
 <body>
-    
+  <header>
+    <div class="brand">BenchBoard</div>
+    <small>Developed by TXFront</small>
+  </header>
+
+  <main>
+    <p class="tag">Recruitment Workflow Platform</p>
+
+    <h1>Smarter recruitment workflows,
+        simpler collaboration.</h1>
+
+    <p>
+      BenchBoard is a recruitment productivity
+      platform under development. It brings
+      job requirements, resume analysis,
+      application preparation and submission
+      tracking into a connected workspace.
+    </p>
+
+    <h2>Platform Capabilities</h2>
+
+    <section class="grid">
+      <div class="card">
+        <h3>Job Description Management</h3>
+        <p>Capture and organize job requirements.</p>
+      </div>
+
+      <div class="card">
+        <h3>Resume Analysis</h3>
+        <p>Compare resumes with job requirements.</p>
+      </div>
+
+      <div class="card">
+        <h3>Application Preparation</h3>
+        <p>Support resume tailoring and outreach.</p>
+      </div>
+
+      <div class="card">
+        <h3>Submission Tracking</h3>
+        <p>Organize recruitment submissions.</p>
+      </div>
+    </section>
+
+    <section class="info">
+      <h2>Account Verification Emails</h2>
+      <p>
+        BenchBoard is preparing transactional
+        email delivery for account registration,
+        email verification and password recovery.
+      </p>
+      <p>
+        Verification codes are intended only
+        for recipients who initiate the relevant
+        account action. These emails are not
+        marketing messages.
+      </p>
+    </section>
+
+    <p>
+      <strong>Development status:</strong>
+      BenchBoard is currently in development
+      and is not publicly available for registration.
+    </p>
+  </main>
+
+  <footer>
+    BenchBoard | Developed by TXFront
+  </footer>
 </body>
 </html>
+
